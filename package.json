@@ -1,0 +1,33 @@
+{
+  "name": "own-auth-ui",
+  "version": "1.0.0",
+  "description": "This repository contains the UI for Own-auth",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "client": "webpack-dev-server --port 3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shivakishore14/Own-auth-UI.git"
+  },
+  "keywords": [
+    "Own-auth"
+  ],
+  "author": "Shiva S",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shivakishore14/Own-auth-UI/issues"
+  },
+  "homepage": "https://github.com/Shivakishore14/Own-auth-UI#readme",
+  "devDependencies": {
+    "css-loader": "^0.28.7",
+    "elm-webpack-loader": "^4.3.1",
+    "file-loader": "^0.11.2",
+    "style-loader": "^0.18.2",
+    "url-loader": "^0.5.9",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.8.2"
+  }
+}
