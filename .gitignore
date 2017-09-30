@@ -1,0 +1,4 @@
+# Contains list of folders and files to be ignored by git
+node_modules/
+dist/
+elm-stuff/
